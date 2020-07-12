@@ -1,0 +1,11 @@
+
+Feature: Consulta Casos no Mantis   
+
+	Scenario: Visualizar a lista de casos no Mantis
+		Given o usuário acessa o site do Mantis
+		When preenche login e senha e clica em enter
+		Then abre a página inicial do Mantis
+		When Clico na aba "Ver Casos"
+		Then apresenta a lista de casos 
+			
+	

@@ -1,0 +1,13 @@
+#language: pt
+
+Funcionalidade: Relatar caso de Bug atraves do Mantis
+
+@RegistroMudanca
+	Cenario: Relatar caso ao realizar uma compra
+		Dado que o usuario acessa a ferramenta Mantis
+		Quando preenche login e senha em seguida clica em enter
+		Entao abre a pagina inicial do Mantis		
+		Quando acesso a aba de "Relatar Caso"
+		Entao exibe um relatorio a ser preenchido
+		Quando preencho o relat�rio  e seleciono um arquivo
+		Entao clico em enviar relatorio
